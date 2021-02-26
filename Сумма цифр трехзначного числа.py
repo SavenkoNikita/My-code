@@ -1,0 +1,5 @@
+numb = int(input())
+hundreds = int(numb // 100)
+decades = int(((numb - (hundreds * 100)) // 10))
+units = int((numb % 10))
+print(hundreds + decades + units)
